@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "py-ic-imaging-control-master", "py-ic-imaging-control-master.pyproj", "{EE7B15B6-D4DC-4863-B9A8-064C8C8A2664}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE7B15B6-D4DC-4863-B9A8-064C8C8A2664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7B15B6-D4DC-4863-B9A8-064C8C8A2664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72E70C26-D651-43A7-BA67-E86AA7C8D51B}
+	EndGlobalSection
+EndGlobal
