@@ -65,8 +65,8 @@ ImageDescription = CallbackUserdata()
 Camera = IC.TIS_CAM()
 
 # Open a camera. 
-Camera.openVideoCaptureDevice("DFx 72BUC02")
-Camera.SetVideoFormat("RGB32 (2592x1944)")
+Camera.openVideoCaptureDevice("DFK 23U618")
+Camera.SetVideoFormat("RGB32 (640×480)")
 Camera.SetFrameRate(1.0)
 # Noe pass the function pointer and our user data to the library.
 Camera.SetFrameReadyCallback(Callbackfunc, ImageDescription )

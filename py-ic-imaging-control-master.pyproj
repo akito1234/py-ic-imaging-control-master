@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ee7b15b6-d4dc-4863-b9a8-064c8c8a2664}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Using-Y16.py</StartupFile>
+    <StartupFile>Using-RGB32.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -23,7 +23,7 @@
     <Compile Include="callback.py" />
     <Compile Include="tis-OpenCV.py" />
     <Compile Include="tisgrabber.py" />
-    <Compile Include="Using-Y16.py" />
+    <Compile Include="Using-RGB32.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

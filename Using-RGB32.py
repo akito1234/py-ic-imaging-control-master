@@ -1,15 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Nov 21 09:46:46 2016
-
 @author: Daniel Vassmer, Stefan_Geissler
-
 Sample for tisgrabber to OpenCV Sample 2
-
 Open a camera by name
 Set a video format hard coded (not recommended, but some peoples insist on this)
 Set properties exposure, gain, whitebalance
-
 """
 import ctypes as C
 import tisgrabber as IC
@@ -29,14 +25,14 @@ if Camera.IsDevValid() == 1:
     print( 'Press ctrl-c to stop' )
 
     # Set a video format
-    Camera.SetVideoFormat("Y16 (640x480)")
+    Camera.SetVideoFormat("RGB32 (640x480)")
     
     # Set a frame rate of 1 frame per second, thus we can read the 
     # output of the pixe values
-    Camera.SetFrameRate( 1.0 )
+    Camera.SetFrameRate( 10 )
     
     #Set the pixel format in the sink (memory) to Y16
-    Camera.SetFormat(IC.SinkFormats.Y16)
+    Camera.SetFormat(IC.SinkFormats.RGB32)
 
     # Start the live video stream, but show no own live video window. We will use OpenCV for this.
     Camera.StartLive(1)    
@@ -54,12 +50,9 @@ if Camera.IsDevValid() == 1:
                 sys.stdout.write( str( image.item(i) >> 4) )
                 sys.stdout.write(' ')
 
-            print( "")
+            print("")
 
     except KeyboardInterrupt:
         Camera.StopLive()
 else:
     print( "No device selected")
-    
-    
- 
